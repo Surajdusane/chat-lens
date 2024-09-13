@@ -49,22 +49,22 @@ const AnalyticsPage = () => {
       <section className="font-inte">
       <SparklesPreview heading={"User Totla Chat"} />
           <div id="top" className="flex flex-col md:flex-row md:gap-0 gap-8 justify-around items-center max-w-[80%] mx-auto">
-            <Card className="md:w-[40%] w-[90%]">
+            <Card className="md:w-[40%] w-[95%]">
                   <CardHeader className="font-semibold font-inte text-lg md:text-3xl tracking-widest uppercase">
                     {Object.keys(chatNumber)[0]}
                   </CardHeader>
                   <CardContent>
-                    <h1 className="font-semibold font-inte text-9xl ">
+                    <h1 className="font-semibold font-inte text-8xl sm:text-9xl">
                     {Object.values(chatNumber)[0]}
                     </h1>
                   </CardContent>
             </Card>
-            <Card className="md:w-[40%] w-[90%]">
+            <Card className="md:w-[40%] w-[95%]">
                   <CardHeader className="font-semibold font-inte text-lg md:text-3xl tracking-widest uppercase">
                   {Object.keys(chatNumber)[1]}
                   </CardHeader>
                   <CardContent>
-                    <h1 className="font-semibold font-inte text-9xl">
+                    <h1 className="font-semibold font-inte text-8xl sm:text-9xl">
                     {Object.values(chatNumber)[1]}
                     </h1>
                   </CardContent>
