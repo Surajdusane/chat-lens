@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className='px-3 sm:px-16 py-4 sm:py-4 flex justify-between'>
         <Link to={"/"} className='flex items-center gap-1'>
-            <img src="public\logo_white.svg" alt="logo" 
+            <img src="/logo_white.svg" alt="logo" 
             width={45}
             height={45}
             />
